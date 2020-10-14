@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Royan</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!-- dropdown -->
+	<div id="nbar">
+	<ul>
+		<li><a class="active" href="index.html">Home</a></li>
+		<li><a href="#about">About</a></li>
+		<li><a href="#">Skills</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
+	</div>
+	<!-- Profil -->
+	<header><h1>Personal Website</h1></header>
+	<main>
+		<div id="profile">
+			<img src="assets/royan1.jpg" alt="profile">
+		</div>
+	</main>
+
+	<div id="content">
+		<section id="about">
+			<h2>About Me</h2>
+			<p>
+				Hai, nama saya adalah Royan Aziz, Usia saya 18 Tahun, saya akan pertama dari 3 bersaudara. Saya sedang melakukan pelatihan di BLK Surakarta.
+			</p>
+		</section><hr>
+	</div>
+	<!-- Kontern -->
+	<section id="skills">
+		<div class="card">
+			<img src="assets/image-1.jpg" alt="Programming">
+			<div>
+				<h3>Programming</h3>
+				<span>
+					
+				</span>
+			</div>
+		</div>
+		<div class="card">
+			<img src="assets/image-2.jpg" alt="Programming">
+			<div>
+				<h3>Comunnication</h3>
+				<span>
+					
+				</span>
+			</div>
+		</div>
+		<div class="card">
+			<img src="assets/image-3.jpg" alt="Programming">
+			<div>
+				<h3>Design</h3>
+				<span>
+					
+				</span>
+			</div>
+		</div>
+	</section>
+	<!-- skills-->
+	<section>
+	<div class="form-contact">
+		<h3>
+			Comment about MyWebsite
+		</h3>
+	<form id="form-comment">
+		<label for="name">Name</label>
+		<input type="text" name="name" id="name" placeholder="Masukan Namamu">
+		<label for="comment">Comment</label>
+ 		<textarea name="comment" placeholder="Tulis Pesanmu di sini.."id="comment" cols="30" rows="10"></textarea>
+ 		<button class="button" type="submit" onclick="saveKomen(event)">Save Comments</button>
+ 	</form>
+	</div>
+	<div id="comment-section">
+		<h3>
+			Comments
+		</h3>
+	<div class="box-comment" id="box-comment">
+		
+	</div>
+	</div>
+	</section>
+	<!-- footer -->
+<a name="contact">
+<footer>
+	<a href="https://www.instagram.com/royanazizzz/"><img src="assets/instagram.png" alt="instagram"></a>
+	<a href="https://www.facebook.com/Royan Aziz/"><img src="assets/facebook.png" alt="facebook"></a>
+	<a href="https://www.twitter.com/royanazizz_/"><img src="assets/twitter.png" alt="twitter"></a>
+	<a href="https://www.linkedin.com/"><img src="assets/linkedin.png" alt="linkedin"></a>
+</footer>
+</a>
+	<script src="script.js"></script>
+</body>
+</html>
